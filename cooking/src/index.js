@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import App from "./App";
 import NoMatch from "./pages/no match/NoMatch";
+import Recipe from "./pages/recipe/Recipe";
 
 import "./index.css";
 
@@ -13,6 +14,7 @@ root.render(
     <Router>
       <Routes>
         <Route path="/" element={<App />} />
+        <Route path="/recipe/*" element={<Recipe />} />
         <Route path="*" element={<NoMatch />} />
       </Routes>
     </Router>
