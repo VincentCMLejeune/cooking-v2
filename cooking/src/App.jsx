@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import "./App.css";
 
 import data from "./data/data.json";
@@ -9,7 +11,11 @@ export default function App() {
       <h2>Recipes</h2>
       <div>
         {data.recipe.map((recipe, i) => {
-          return <div key={i}>{recipe.name}</div>;
+          return (
+            <div key={i}>
+              <Link to={"recipe/" + recipe.lowerCaseName}>{recipe.name}</Link>
+            </div>
+          );
         })}
       </div>
     </div>
