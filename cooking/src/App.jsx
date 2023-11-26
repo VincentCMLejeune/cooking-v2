@@ -10,7 +10,7 @@ export default function App() {
       <h1>Main page</h1>
       <h2>Recipes</h2>
       <div>
-        {data.recipe.map((recipe, i) => {
+        {data.recipes.map((recipe, i) => {
           return (
             <div key={i}>
               <Link to={"recipe/" + recipe.lowerCaseName}>{recipe.name}</Link>
