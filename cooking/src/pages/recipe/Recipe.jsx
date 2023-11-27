@@ -20,7 +20,14 @@ export default function Recipe() {
   }, []);
 
   return currentRecipe !== null && currentRecipe.name ? (
-    <div className="recipe">Current Recipe: {currentRecipe.name}</div>
+    <div className="recipe">
+      <div>Current Recipe: {currentRecipe.name}</div>
+      <ul>
+        {currentRecipe.recipe.map((step, i) => (
+          <div key={i}>{step}</div>
+        ))}
+      </ul>
+    </div>
   ) : (
     currentRecipe === "not found" && <div>Not found</div>
   );
