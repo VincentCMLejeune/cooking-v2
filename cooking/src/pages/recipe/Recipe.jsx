@@ -27,6 +27,11 @@ export default function Recipe() {
           <div key={i}>{step}</div>
         ))}
       </ul>
+      <div>
+        {currentRecipe.isVegetarian && <div>Vegetarien</div>}
+        {currentRecipe.isQuick && <div>Rapide</div>}
+        {currentRecipe.isTuppable && <div>Tuppable</div>}
+      </div>
     </div>
   ) : (
     currentRecipe === "not found" && <div>Not found</div>
