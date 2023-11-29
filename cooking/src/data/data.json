@@ -26,7 +26,6 @@
         "Enfourner selon les instructions de cuisson",
         "Accompagnement recommandé : salade"
       ],
-      "temperature": "Chaud",
       "isVegetarian": false,
       "isQuick": false,
       "isTuppable": false
@@ -51,7 +50,6 @@
         "Assaisonner (sel - poivre - muscade - piment)",
         "Lancer le programme soupe"
       ],
-      "temperature": "Chaud",
       "isVegetarian": true,
       "isQuick": true,
       "isTuppable": false
@@ -79,7 +77,6 @@
         "Ajouter la crème",
         "Assaisonner"
       ],
-      "temperature": "Chaud",
       "isVegetarian": false,
       "isQuick": false,
       "isTuppable": true
