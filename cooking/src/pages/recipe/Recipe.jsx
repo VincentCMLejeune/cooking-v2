@@ -2,6 +2,8 @@ import { useEffect, useState } from "react";
 
 import data from "../../data/data.json";
 
+import Header from "../../components/header/Header";
+
 import "./Recipe.css";
 
 export default function Recipe() {
@@ -21,6 +23,7 @@ export default function Recipe() {
 
   return currentRecipe !== null && currentRecipe.name ? (
     <div className="recipe">
+      <Header />
       <div>Current Recipe: {currentRecipe.name}</div>
       <ul>
         {currentRecipe.recipe.map((step, i) => (
