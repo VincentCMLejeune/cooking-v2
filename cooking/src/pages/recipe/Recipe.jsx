@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 import data from "../../data/data.json";
 
@@ -37,6 +38,13 @@ export default function Recipe() {
       </div>
     </div>
   ) : (
-    currentRecipe === "not found" && <div>Not found</div>
+    currentRecipe === "not found" && (
+      <div>
+        <div>Not found</div>
+        <Link to="/">
+          <div>Go back</div>
+        </Link>
+      </div>
+    )
   );
 }
