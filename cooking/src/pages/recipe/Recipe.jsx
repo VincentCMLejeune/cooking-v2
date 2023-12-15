@@ -25,7 +25,7 @@ export default function Recipe() {
   return currentRecipe !== null && currentRecipe.name ? (
     <div className="recipe">
       <Header />
-      <div>Current Recipe: {currentRecipe.name}</div>
+      <div className="recipe-title">{currentRecipe.name}</div>
       <ul>
         {currentRecipe.recipe.map((step, i) => (
           <div key={i}>{step}</div>
