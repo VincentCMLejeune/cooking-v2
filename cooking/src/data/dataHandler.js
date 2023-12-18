@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const updateData = (sourceFilePath, destinationFilePath) => {
+const updateData = (sourceFilePath, destinationFilePath, message) => {
   fs.readFile(sourceFilePath, "utf8", (err, data) => {
     if (err) {
       console.error("Error reading the source file:", err);
@@ -16,10 +16,7 @@ const updateData = (sourceFilePath, destinationFilePath) => {
           console.error("Error writing to the destination file:", err);
           return;
         }
-
-        console.log(
-          "Contents of the source JSON file have been written to the destination file."
-        );
+        console.log(message);
       }
     );
   });
@@ -28,10 +25,10 @@ const dataFilePath = "./data.json";
 const backupFilePath = "./backupData.json";
 
 const backupData = () => {
-  updateData(dataFilePath, backupFilePath);
+  updateData(dataFilePath, backupFilePath, "Successfully registered data in backup file");
 };
 const restoreData = () => {
-  updateData(backupFilePath, dataFilePath);
+  updateData(backupFilePath, dataFilePath, "Successfully restored data from backup file");
 };
 
 module.exports = { backupData, restoreData };
