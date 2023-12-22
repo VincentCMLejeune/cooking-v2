@@ -40,5 +40,4 @@ const restoreData = () => {
   );
 };
 
-restoreData();
 module.exports = { backupData, restoreData };
