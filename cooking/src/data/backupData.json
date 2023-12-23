@@ -5,14 +5,35 @@
       "lowerCaseName": "flemmenkueche",
       "key": 1,
       "ingredients": [
-        [1, "pâte à pizza"],
-        [1, "pâte feuilletée"],
-        [150, "gr lardons"],
-        [2, "gros oignons"],
-        [20, "cl crème liquide"],
-        ["Poivre"],
-        ["Sel"],
-        ["Muscade"]
+        [
+          1,
+          "pâte à pizza"
+        ],
+        [
+          1,
+          "pâte feuilletée"
+        ],
+        [
+          150,
+          "gr lardons"
+        ],
+        [
+          2,
+          "gros oignons"
+        ],
+        [
+          20,
+          "cl crème liquide"
+        ],
+        [
+          "Poivre"
+        ],
+        [
+          "Sel"
+        ],
+        [
+          "Muscade"
+        ]
       ],
       "basePersonsIngredients": 2,
       "recipe": [
@@ -35,11 +56,25 @@
       "lowerCaseName": "soupedeglincoco",
       "key": 2,
       "ingredients": [
-        [1, "patate douce"],
-        [1, "poireau ou oignon"],
-        [1, "petite carotte"],
-        [20, "cl crème de coco"],
-        ["Epices"]
+        [
+          1,
+          "patate douce"
+        ],
+        [
+          1,
+          "poireau ou oignon"
+        ],
+        [
+          1,
+          "petite carotte"
+        ],
+        [
+          20,
+          "cl crème de coco"
+        ],
+        [
+          "Epices"
+        ]
       ],
       "basePersonsIngredients": 2,
       "recipe": [
@@ -59,14 +94,34 @@
       "lowerCaseName": "patespoireauxcrevettes",
       "key": 3,
       "ingredients": [
-        [200, "gr pâtes complètes"],
-        [2, "poireaux"],
-        [10, "crevettes"],
-        [20, "cl crème liquide"],
-        ["Beurre"],
-        ["Poivre"],
-        ["Sel"],
-        ["Muscade"]
+        [
+          200,
+          "gr pâtes complètes"
+        ],
+        [
+          2,
+          "poireaux"
+        ],
+        [
+          10,
+          "crevettes"
+        ],
+        [
+          20,
+          "cl crème liquide"
+        ],
+        [
+          "Beurre"
+        ],
+        [
+          "Poivre"
+        ],
+        [
+          "Sel"
+        ],
+        [
+          "Muscade"
+        ]
       ],
       "basePersonsIngredients": 2,
       "recipe": [
@@ -86,11 +141,24 @@
       "lowerCaseName": "rizcantonnais",
       "key": 4,
       "ingredients": [
-        [120, "gr de riz thaï (ou basmati)"],
-        [1, "oignon"],
-        [2, "oeufs"],
-        ["Petits pois"],
-        ["Jambon ou lardons"]
+        [
+          120,
+          "gr de riz thaï (ou basmati)"
+        ],
+        [
+          1,
+          "oignon"
+        ],
+        [
+          2,
+          "oeufs"
+        ],
+        [
+          "Petits pois"
+        ],
+        [
+          "Jambon ou lardons"
+        ]
       ],
       "basePersonsIngredients": 2,
       "recipe": [
@@ -111,17 +179,48 @@
       "lowerCaseName": "chiliconcarne",
       "key": 5,
       "ingredients": [
-        [25, "g de beurre"],
-        [1, "oignons"],
-        [1, "gousses d'ail écrasées"],
-        [0.5, "c.à.c. chili en poudre"],
-        [1, "c.à.c. cumin en poudre"],
-        [32.5, "g de concentré de tomates"],
-        [0.5, "grosse boîte de haricots rouges"],
-        [15, "cl de bouillon de boeuf"],
-        [250, "g boeuf hâché"],
-        ["sel"],
-        ["poivre"]
+        [
+          25,
+          "g de beurre"
+        ],
+        [
+          1,
+          "oignons"
+        ],
+        [
+          1,
+          "gousses d'ail écrasées"
+        ],
+        [
+          0.5,
+          "c.à.c. chili en poudre"
+        ],
+        [
+          1,
+          "c.à.c. cumin en poudre"
+        ],
+        [
+          32.5,
+          "g de concentré de tomates"
+        ],
+        [
+          0.5,
+          "grosse boîte de haricots rouges"
+        ],
+        [
+          15,
+          "cl de bouillon de boeuf"
+        ],
+        [
+          250,
+          "g boeuf hâché"
+        ],
+        [
+          "sel"
+        ],
+        [
+          "poivre"
+        ]
       ],
       "basePersonsIngredients": 2,
       "recipe": [
@@ -140,12 +239,28 @@
       "lowerCaseName": "penneallarrabbiata",
       "key": 6,
       "ingredients": [
-        [200, "gr de penne"],
-        [1.5, "gousses d'ail"],
-        [200, "gr de pulpe de tomates"],
-        [0.5, "cs piment de cayenne"],
-        ["Laurier ou thym"],
-        ["Parmesan"]
+        [
+          200,
+          "gr de penne"
+        ],
+        [
+          1.5,
+          "gousses d'ail"
+        ],
+        [
+          200,
+          "gr de pulpe de tomates"
+        ],
+        [
+          0.5,
+          "cs piment de cayenne"
+        ],
+        [
+          "Laurier ou thym"
+        ],
+        [
+          "Parmesan"
+        ]
       ],
       "basePersonsIngredients": 2,
       "recipe": [
@@ -167,10 +282,21 @@
       "lowerCaseName": "patesauchorizo",
       "key": 7,
       "ingredients": [
-        ["Une plaquette de chorizo"],
-        [1, "oignon rouge"],
-        [200, "gr pâtes complètes"],
-        [20, "cl crème liquide"]
+        [
+          "Une plaquette de chorizo"
+        ],
+        [
+          1,
+          "oignon rouge"
+        ],
+        [
+          200,
+          "gr pâtes complètes"
+        ],
+        [
+          20,
+          "cl crème liquide"
+        ]
       ],
       "basePersonsIngredients": 2,
       "recipe": [
@@ -189,12 +315,26 @@
       "lowerCaseName": "toastsaupesto",
       "key": 8,
       "ingredients": [
-        [0.5, "baguette"],
-        ["Pesto"],
-        [1, "boule de mozzarella"],
-        ["Copeaux de parmesan"],
-        ["Huile"],
-        ["Sel poivre"]
+        [
+          0.5,
+          "baguette"
+        ],
+        [
+          "Pesto"
+        ],
+        [
+          1,
+          "boule de mozzarella"
+        ],
+        [
+          "Copeaux de parmesan"
+        ],
+        [
+          "Huile"
+        ],
+        [
+          "Sel poivre"
+        ]
       ],
       "basePersonsIngredients": 2,
       "recipe": [
@@ -215,13 +355,34 @@
       "lowerCaseName": "pancakesalabanane",
       "key": 9,
       "ingredients": [
-        [1, "banane bien mûre"],
-        [1, "oeuf"],
-        [100, "g de farine"],
-        [30, "g de sucre"],
-        [1, "c. à café de levure chimique"],
-        [10, "cl de lait"],
-        [1, "pincée de sel"]
+        [
+          1,
+          "banane bien mûre"
+        ],
+        [
+          1,
+          "oeuf"
+        ],
+        [
+          100,
+          "g de farine"
+        ],
+        [
+          30,
+          "g de sucre"
+        ],
+        [
+          1,
+          "c. à café de levure chimique"
+        ],
+        [
+          10,
+          "cl de lait"
+        ],
+        [
+          1,
+          "pincée de sel"
+        ]
       ],
       "basePersonsIngredients": 2,
       "recipe": [
@@ -242,11 +403,24 @@
       "lowerCaseName": "patesaupestomozza",
       "key": 10,
       "ingredients": [
-        [250, "gr de farfalle"],
-        [0.5, "pot de pesto vert"],
-        ["Tomates cerises"],
-        ["Noix de cajou"],
-        [1, "petites boules de mozarella"]
+        [
+          250,
+          "gr de farfalle"
+        ],
+        [
+          0.5,
+          "pot de pesto vert"
+        ],
+        [
+          "Tomates cerises"
+        ],
+        [
+          "Noix de cajou"
+        ],
+        [
+          1,
+          "petites boules de mozarella"
+        ]
       ],
       "basePersonsIngredients": 2,
       "recipe": [
@@ -268,11 +442,24 @@
       "lowerCaseName": "painpitafacile",
       "key": 11,
       "ingredients": [
-        [150, "g de farine"],
-        [25, "g de beurre"],
-        [90, "ml de lait"],
-        ["Sel"],
-        ["Huile"]
+        [
+          150,
+          "g de farine"
+        ],
+        [
+          25,
+          "g de beurre"
+        ],
+        [
+          90,
+          "ml de lait"
+        ],
+        [
+          "Sel"
+        ],
+        [
+          "Huile"
+        ]
       ],
       "basePersonsIngredients": 2,
       "recipe": [
@@ -294,12 +481,28 @@
       "lowerCaseName": "dipdefetaettomatesroties",
       "key": 12,
       "ingredients": [
-        [1, "paquet de tomates cerises"],
-        [1, "yaourt grec"],
-        ["Huile d'olive"],
-        [1, "gousse d'ail"],
-        ["Epices (persillade, thym, romarin)"],
-        [110, "g de fêta (ou Philadelphia)"]
+        [
+          1,
+          "paquet de tomates cerises"
+        ],
+        [
+          1,
+          "yaourt grec"
+        ],
+        [
+          "Huile d'olive"
+        ],
+        [
+          1,
+          "gousse d'ail"
+        ],
+        [
+          "Epices (persillade, thym, romarin)"
+        ],
+        [
+          110,
+          "g de fêta (ou Philadelphia)"
+        ]
       ],
       "basePersonsIngredients": 2,
       "recipe": [
@@ -324,13 +527,32 @@
       "lowerCaseName": "patescarbo",
       "key": 13,
       "ingredients": [
-        [400, "gr pâtes"],
-        [3, "oeufs"],
-        [3, "jaunes d'oeufs"],
-        [150, "gr pancetta"],
-        [120, "gr parmesan"],
-        ["poivre"],
-        ["sel"]
+        [
+          400,
+          "gr pâtes"
+        ],
+        [
+          3,
+          "oeufs"
+        ],
+        [
+          3,
+          "jaunes d'oeufs"
+        ],
+        [
+          150,
+          "gr pancetta"
+        ],
+        [
+          120,
+          "gr parmesan"
+        ],
+        [
+          "poivre"
+        ],
+        [
+          "sel"
+        ]
       ],
       "basePersonsIngredients": 3,
       "recipe": [
@@ -349,15 +571,40 @@
       "lowerCaseName": "saladepouletbacon",
       "key": 14,
       "ingredients": [
-        [2, "escalopes de poulet"],
-        [4, "tranches de bacon"],
-        [2, "échalottes"],
-        [1, "oignon rose"],
-        [1, "roquette"],
-        [3, "c.à.s. vinaigre balsamique"],
-        [1, "c.à.s. miel"],
-        ["ail"],
-        ["huile d'olive"]
+        [
+          2,
+          "escalopes de poulet"
+        ],
+        [
+          4,
+          "tranches de bacon"
+        ],
+        [
+          2,
+          "échalottes"
+        ],
+        [
+          1,
+          "oignon rose"
+        ],
+        [
+          1,
+          "roquette"
+        ],
+        [
+          3,
+          "c.à.s. vinaigre balsamique"
+        ],
+        [
+          1,
+          "c.à.s. miel"
+        ],
+        [
+          "ail"
+        ],
+        [
+          "huile d'olive"
+        ]
       ],
       "basePersonsIngredients": 2,
       "recipe": [
@@ -374,13 +621,34 @@
       "lowerCaseName": "nuggets",
       "key": 15,
       "ingredients": [
-        [450, "gr blanc de poulet"],
-        [20, "cl lait"],
-        [75, "gr farine"],
-        [2, "c.à.c piment"],
-        [1, "c.à.c curry"],
-        [1, "c.à.c cumin"],
-        [1, "c.à.c muscade"]
+        [
+          450,
+          "gr blanc de poulet"
+        ],
+        [
+          20,
+          "cl lait"
+        ],
+        [
+          75,
+          "gr farine"
+        ],
+        [
+          2,
+          "c.à.c piment"
+        ],
+        [
+          1,
+          "c.à.c curry"
+        ],
+        [
+          1,
+          "c.à.c cumin"
+        ],
+        [
+          1,
+          "c.à.c muscade"
+        ]
       ],
       "basePersonsIngredients": 2,
       "recipe": [
@@ -398,19 +666,55 @@
       "lowerCaseName": "lasagnes",
       "key": 16,
       "ingredients": [
-        ["Paquet de lasagnes"],
-        [600, "gr boeuf"],
-        [800, "gr purée de tomates"],
-        [20, "cl vin rouge"],
-        [3, "oignons jaunes"],
-        [2, "gousses d'ail"],
-        [70, "gr fromage râpé"],
-        [125, "gr parmesan"],
-        [100, "gr farine"],
-        [1, "l de lait"],
-        [125, "gr de beurre"],
-        ["thym"],
-        ["origan"]
+        [
+          "Paquet de lasagnes"
+        ],
+        [
+          600,
+          "gr boeuf"
+        ],
+        [
+          800,
+          "gr purée de tomates"
+        ],
+        [
+          20,
+          "cl vin rouge"
+        ],
+        [
+          3,
+          "oignons jaunes"
+        ],
+        [
+          2,
+          "gousses d'ail"
+        ],
+        [
+          70,
+          "gr fromage râpé"
+        ],
+        [
+          125,
+          "gr parmesan"
+        ],
+        [
+          100,
+          "gr farine"
+        ],
+        [
+          1,
+          "l de lait"
+        ],
+        [
+          125,
+          "gr de beurre"
+        ],
+        [
+          "thym"
+        ],
+        [
+          "origan"
+        ]
       ],
       "basePersonsIngredients": 6,
       "recipe": [
@@ -434,14 +738,35 @@
       "lowerCaseName": "quichelorraine",
       "key": 17,
       "ingredients": [
-        [200, "gr pâte brisée"],
-        [200, "gr lardons"],
-        [20, "cl crème fraîche"],
-        [20, "cl lait"],
-        [3, "oeufs"],
-        ["muscade"],
-        ["sel"],
-        ["poivre"]
+        [
+          200,
+          "gr pâte brisée"
+        ],
+        [
+          200,
+          "gr lardons"
+        ],
+        [
+          20,
+          "cl crème fraîche"
+        ],
+        [
+          20,
+          "cl lait"
+        ],
+        [
+          3,
+          "oeufs"
+        ],
+        [
+          "muscade"
+        ],
+        [
+          "sel"
+        ],
+        [
+          "poivre"
+        ]
       ],
       "basePersonsIngredients": 4,
       "recipe": [
@@ -462,15 +787,40 @@
       "lowerCaseName": "croquemonsieur",
       "key": 18,
       "ingredients": [
-        [4, "tranches de pain de mie"],
-        [25, "gr de beurre tendre"],
-        [50, "gr de gruyère râpé"],
-        [2, "c.à.s. de lait"],
-        [0.5, "pincée de muscade"],
-        [2, "tranches de jambon"],
-        [4, "tranches de cheddar"],
-        ["sel"],
-        ["poivre"]
+        [
+          4,
+          "tranches de pain de mie"
+        ],
+        [
+          25,
+          "gr de beurre tendre"
+        ],
+        [
+          50,
+          "gr de gruyère râpé"
+        ],
+        [
+          2,
+          "c.à.s. de lait"
+        ],
+        [
+          0.5,
+          "pincée de muscade"
+        ],
+        [
+          2,
+          "tranches de jambon"
+        ],
+        [
+          4,
+          "tranches de cheddar"
+        ],
+        [
+          "sel"
+        ],
+        [
+          "poivre"
+        ]
       ],
       "basePersonsIngredients": 2,
       "recipe": [
@@ -483,5 +833,6 @@
       "isQuick": true,
       "isTuppable": true
     }
-  ]
+  ],
+  "lastSaved": "2023-12-22T14:35:27.488Z"
 }
