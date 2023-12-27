@@ -8,6 +8,9 @@ export default function Header() {
       <Link to="/">
         <div>ICON HERE</div>
       </Link>
+      <Link to="/admin">
+        <div>Admin</div>
+      </Link>
       <div>HEADER</div>
     </div>
   );
