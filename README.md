@@ -11,3 +11,9 @@ npm install
 ```bash
 npm start
 ```
+
+TODO
+
+- Design
+- Script to backup json files
+- Illustrations
