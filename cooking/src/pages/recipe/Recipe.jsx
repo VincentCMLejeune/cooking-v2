@@ -9,6 +9,7 @@ import "./Recipe.css";
 
 export default function Recipe() {
   const [currentRecipe, setCurrentRecipe] = useState(null);
+  const [personsIngredients, setPersonsIngredients] = useState(1);
 
   useEffect(() => {
     const foundRecipe = data.recipes.filter(
@@ -17,6 +18,7 @@ export default function Recipe() {
     );
     if (foundRecipe.length > 0) {
       setCurrentRecipe(foundRecipe[0]);
+      setPersonsIngredients(foundRecipe[0].basePersonsIngredients);
     } else {
       setCurrentRecipe("not found");
     }
@@ -26,11 +28,12 @@ export default function Recipe() {
     <div className="recipe">
       <Header />
       <div className="recipe-title">{currentRecipe.name}</div>
-      <ul>
+      <div>Pour {personsIngredients}</div>
+      <div>
         {currentRecipe.recipe.map((step, i) => (
           <div key={i}>{step}</div>
         ))}
-      </ul>
+      </div>
       <div>
         {currentRecipe.isVegetarian && <div>Vegetarien</div>}
         {currentRecipe.isQuick && <div>Rapide</div>}
