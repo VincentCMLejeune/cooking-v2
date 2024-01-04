@@ -30,6 +30,11 @@ export default function Recipe() {
       <div className="recipe-title">{currentRecipe.name}</div>
       <div>Pour {personsIngredients}</div>
       <div>
+        {currentRecipe.ingredients.map((ingredient, i) => (
+          <div key={i}>{ingredient.join(" ")}</div>
+        ))}
+      </div>
+      <div>
         {currentRecipe.recipe.map((step, i) => (
           <div key={i}>{step}</div>
         ))}
