@@ -1,7 +1,7 @@
 import "./Admin.css";
 
 import jsonBackup from "../../data/backupData.json";
-import jsonData from "../../data/data.json";
+// import jsonData from "../../data/data.json";
 
 import { getFullDate } from "./FormatDate";
 
