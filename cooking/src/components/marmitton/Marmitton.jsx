@@ -8,7 +8,7 @@ export default function Marmitton() {
   return (
     <div className="marmitton">
       <div>
-        <input type="text" />
+        <input type="text" className="marmitton-input" />
       </div>
     </div>
   );
